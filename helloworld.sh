@@ -1,7 +1,8 @@
 #!/bin/bash
 
 touch helloworld
-printf "hello world" > helloworld
-git add helloworld
-git commit origin helloworld
-git push origin
+printf "hello world/
+I wonder what will happen when I do this.
+Sounds fun doesnt it!
+You are so silly." > helloworld
+

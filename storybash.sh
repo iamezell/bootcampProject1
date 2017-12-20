@@ -1,4 +1,9 @@
 #!bin/bash
+#
+#story.bash: a story generator
+#
+#Latoya Harrison nope Barrett
+#CVS: $Header$
 
 declare NAME
 declare COLOR
@@ -15,7 +20,7 @@ read -p "Enter a man's name: " NAME
 read -p "Enter a color (eg. red): " COLOR
 read -p "Enter a day: " DAY
 read -p "Enter a person's relationship (eg. uncle): " RELATIONSHIP
-read -p "Enter an everyday object (eg. pencil): " OBJECT
+read -p "Enter an everyday object (eg. pencil):	 " OBJECT
 read -p "Enter an everyday activity (eg. sleeping): " ACTIVITY[0]
 read -p "Enter an everyday activity (eg. reading): " ACTIVITY[1]
 printf "/n"

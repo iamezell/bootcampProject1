@@ -25,13 +25,13 @@ printf "\n"
 # Read the variables
 
 
-read -p "Ezell         :" NAME
-read -p "Red           :" COLOR
-read -p "Tuesday       :" DAY
-read -p "Brother       :" RELATIONSHIP
-read -p "Laptop        :" OBJECT 
-read -p "Laughing      :" ACTIVITY [0]
-read -p "Coding        :" ACTIVITY [1]
+read -p "Enter a man's name         :" NAME
+read -p "Enter a color           :" COLOR
+read -p "Enter a day       :" DAY
+read -p "Enter a relationship   :" RELATIONSHIP
+read -p "Enter an object        :" OBJECT 
+read -p "Enter an everyday activity      :" ACTIVITY [0]
+read -p "Enter an everyday activity        :" ACTIVITY [1]
 printf "n\"
 read -p "Press return/enter to read your story"
 printf "\n"

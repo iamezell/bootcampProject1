@@ -48,11 +48,11 @@ printf "%s\n" "As he got outside of the front door of his office,"
 printf "%s\n" "$NAME ran into his $RELATIONSHIP carrying a"
 printf "%s\n" "$COLOR $OBJECT. His $RELATIONSHIP remarked that it had"
 printf "%s\n" "been $RANDOM days since $NAME had called. $NAME"
-printf "%s\n" "thought he would have beenoff surfing the net on his" 
+printf "%s\n" "thought he would have been off surfing the net on his" 
 printf "%s\n" "$OSTYPE computer than running into his $RELATIONSHIP. He"
 printf "%s\n" "offered to take the $OBJECT to get polished." \
 	" HE went ${ACTIVITY[0]}"	
 printf "%s\n" "down the street, wishing that his $RELATIONSHIP had stayed"
-printf "%s\n" "home ${ACTIVITY[1]} anstead."
+printf "%s\n" "home ${ACTIVITY[1]} instead."
 
 exit 0

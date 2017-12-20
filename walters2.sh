@@ -32,7 +32,7 @@ read -p "Enter a relationship (eg. brother)  :" RELATIONSHIP
 read -p "Enter an object        :" OBJECT 
 read -p "Enter an everyday activity (eg. reading)      :" ACTIVITY[0]
 read -p "Enter an everyday activity (sleeping)       :" ACTIVITY[1]
-printf "n\"
+printf "\n"
 read -p "Press return/enter to read your story"
 printf "\n"
 
@@ -41,7 +41,7 @@ printf "\n"
 
 
 
-printf "%s\n" "$DAY at work, $NAAME realized that he had forgotten to pack"
+printf "%s\n" "$DAY at work, $NAME realized that he had forgotten to pack"
 printf "%s\n" "a lunch. Ignoring the $SHELL prompt, $NAME decided to head"
 printf "%s\n" "out early and grab lunch from the street vendor."
 printf "%s\n" "As he got outside of the front door of his office,"
